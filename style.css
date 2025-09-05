@@ -1,0 +1,95 @@
+/* Reset default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+
+#searchInput {
+  width: 250px;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+#btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background: #ff6b6b;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#btn:hover {
+  background: #ff4c4c;
+}
+
+.container {
+  margin-top: 30px;
+  max-width: 500px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+#title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+
+#strCategory,
+#strArea {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+
+.strInstructions {
+  margin-top: 15px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 15px;
+  color: #444;
+  max-height: 200px;
+  overflow-y: auto; 
+  padding-right: 5px;
+}
+
+.strInstructions::-webkit-scrollbar {
+  display: none;
+}
+.strInstructions {
+  scrollbar-width: none; 
+}
